@@ -11,9 +11,9 @@ int main() {
 
   string myText;
   int myInt;
-
-  ifstream numFile("page.txt"); // reading from input file
-
+  
+  // reading from input file
+  ifstream numFile("page.txt"); 
 
   // read data from file (disk) to array (memory)
   int i = 0;
